@@ -1,0 +1,20 @@
+﻿<ul class="nav side-menu">
+    <li>
+        <a href="/"><i class="fa fa-home"></i> Dashboard </a>
+    </li>
+    <li><a href="@Url.Action("Index","Students")"><i class="fa fa-edit"></i> Groups</a></li>
+    <li><a href="@Url.Action("Index","Exams")"><i class="fa fa-edit"></i> Exams</a></li>
+    <li><a href="@Url.Action("Index","Teachers")"><i class="fa fa-edit"></i> Teachers</a></li>
+    <li> <a href="@Url.Action("Index","Account")"><i class="fa fa-edit"></i> Users </a> </li>
+
+    <li>
+        <a><i class="fa fa-bar-chart-o"></i> Report <span class="fa fa-chevron-down"></span></a>
+        <ul class="nav child_menu">
+            <li><a href="@Url.Action("DaillyExams","Reports")">Dailly Tests </a></li>
+            <li><a href="@Url.Action("Exams","Reports")">Exams </a></li>
+          
+
+        </ul>
+    </li>
+</ul>
+

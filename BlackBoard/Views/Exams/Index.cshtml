@@ -1,0 +1,67 @@
+﻿@model IEnumerable<BlackBoard.Core.Models.Exam>
+@{
+    ViewBag.Title = "Exams";
+}
+
+<div class="col-md-12">
+    <div class="x_panel">
+        <div class="x_title">
+            <h3>Exams </h3>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="x_content">
+            <table id="exams" class=" data table table-striped no-margin">
+                <thead>
+                    <tr>
+                        <th>Token</th>
+                        <th>Group name</th>
+                    
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Teacher</th>
+                        <th>Detail</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Student.Token</td>
+                            <td>@item.Student.Name</td>
+                          
+                            <td>@item.StartDateTime.ToString("MMM")-@item.StartDateTime.ToString("d ")-@item.StartDateTime.ToString("yyyy")</td>
+                            <td>@item.StartDateTime.ToString("HH:mm")</td>
+                            <td>@item.Teacher.Name</td>
+                            <td>@item.Detail</td>
+                            <td>@{
+                                    if(item.Status == true)
+                                    {
+                                        <a href="#" style="padding: 3px 10px 3px 10px; background-color:green " class="badge" readonly>Approved</a>
+                                    }
+                                    else
+                                    {
+                                        <a href="#" style="padding: 3px 10px 3px 10px; background-color:greenyellow" class="badge" readonly>Pending</a>
+                                    }
+                                }</td>
+                            <td><a href="@Url.Action("Edit","Exams", new { id = item.Id})" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i>Edit</a></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+
+
+@section scripts{
+    <script>
+        $(document).ready(function() {
+            $('#exams').DataTable();
+        });
+    </script>
+}

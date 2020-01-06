@@ -1,0 +1,199 @@
+﻿@using BlackBoard.Core.Models
+@model BlackBoard.Core.ViewModel.StudentDetailViewModel
+@{
+    ViewBag.Title = "Details";
+}
+<!-- load partial here-->
+<div id="MyModal" class="modal fade in">
+        <div class="modal-dialog "style="width: 900px;">
+            <div class="modal-content">
+                <div id="MyModalContent"></div>
+            </div>
+        </div>
+    </div>
+
+
+<div class="page-title">
+    <div class="title_left">
+        <h3>Details</h3>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+            @*<div class="x_title">
+                <h2>Student Details </h2>
+                <ul class="nav navbar-right panel_toolbox">
+                    <li> <a href="@Url.Action("Edit", "Students", new { id= Model.Student.Id})" class="btn-link"><i class="fa fa-edit m-right-xs"></i>Edit</a>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>*@
+
+            <div class="x_content">
+                <div class="col-md-3 col-sm-3 col-xs-12 profile_left ">
+                    <div class="profile_img">
+                        <div id="crop-avatar">
+                            <!-- Current avatar -->
+                            <img class="img-responsive avatar-view" src="~/Content/images/user.png">
+                        </div>
+                    </div>
+                    <h3>@Model.Student.Name</h3>
+                    <ul class="list-unstyled user_data">
+                        <li> <i class="fa fa-user"><strong>Token:</strong> @Model.Student.Token</i></li>
+                        <li> <i class="fa fa-user"><strong>DivisionD:</strong> @Model.Student.DivisionD</i></li>
+                        
+                       
+
+
+                        <li class="m-top-xs">
+                            <i class="fa fa-clock-o"></i><strong>Date :</strong> @Model.Student.DateTime.ToString("MMM"), @Model.Student.DateTime.ToString("d ")- @Model.Student.DateTime.ToString("yyyy")-@Model.Student.DateTime.ToString("HH:mm")
+                        </li>
+                    </ul>
+                    <a href="@Url.Action("Edit", "Students", new { id= Model.Student.Id})" class="btn btn-success"><i class="fa fa-edit m-right-xs"></i>Edit</a>
+
+                    <br/>
+                </div>
+                <div class="col-md-9 col-sm-9 col-xs-12">
+                    <div class="col-md-6 col-sm-6 col-xs-12">
+                       <span class="section"> Exam</span>
+                      <a id="studentID" data-exam-id="@Model.Student.Id" href="#"> Student Exam</a>  <span class="badge badge-error">@Model.CountExams</span> @if (User.IsInRole(RoleName.AdministratorRoleName))
+                                                                                                                                                                                   {
+                                                                                                                                                                                       <a href="@Url.Action("Create", "Exams", new {id = Model.Student.Id})"><i class="fa fa-plus"></i></a>
+                                                                                                                                                                                   }
+                    </div>          
+                   
+                    @*<div class="" role="tabpanel" data-example-id="togglable-tabs">
+                        <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Exam history</a>
+
+                            </li>
+                            <li role="presentation" class="">
+                                <a href="#tab_content2" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="false">Attendance history</a>                            
+                                </li>
+                        </ul>
+                        <div id="myTabContent" class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
+                                <!-- start exam history -->
+                                <table class="data table table-striped no-margin dataTables">
+                                    <thead>
+                                        <tr>
+                                            <th>Teacher</th>
+                                            <th>Date</th>
+                                            <th>Time</th>
+                                            <th>Details</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model.Exams)
+                                        {
+                                            <tr>
+                                                <td>@item.Teacher.Name</td>
+                                                <td>@item.StartDateTime.ToString("MMM"),@item.StartDateTime.ToString("d ")-@item.StartDateTime.ToString("yyyy")</td>
+                                                <td>@item.StartDateTime.ToString("HH:mm")</td>
+                                                <td>@item.Detail</td>
+                                                <td>
+                                                    @{
+                                                        if (item.Status == true)
+                                                        {
+                                                            <a href="#" style="padding: 3px 10px 3px 10px; background-color:green " class="badge" readonly>Approved</a>
+                                                        }
+                                                        else
+                                                        {
+                                                            <a href="#" style="padding: 3px 10px 3px 10px; background-color:greenyellow " class="badge" readonly>Pending</a>
+                                                        }
+                                                    }
+                                                </td>
+
+                                            </tr>
+
+                                                        }
+                                    </tbody>
+                                </table>
+                                <!-- end exam history -->
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
+                                <table class="data table table-striped no-margin dataTables">
+                                    <thead>
+                                    <tr>
+                                        <th>Exam Remarks</th>
+                                        <th>Interpretation</th>
+                                        <th>Second Interpretation</th>
+                                        <th>Third Interpretation</th>
+                                        <th>RecoverCandidate</th>
+                                        <th>Date</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    @foreach (var item in Model.Attendances)
+                                    {
+                                        <tr>
+                                            <td>@item.ExamRemarks</td>
+                                            <td>@item.Interpretation</td>
+                                            <td>@item.SecondInterpretation</td>
+                                            <td>@item.ThirdInterpretation</td>
+                                            <td>@item.RecoverCandidate</td>
+                                            <td>@item.Date.ToString("MMM"), @item.Date.ToString("d ")-@item.Date.ToString("yyyy")</td>
+                                        </tr>
+
+                                    }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>*@
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script>
+        $(document).ready(function(){
+            $("#studentID").on("click", function () {
+                var link = $(this);
+                $.ajaxSetup({ cache: false });
+                var detailUrl = "/Exams/Details/" + link.attr("data-exam-id");
+                $("#MyModalContent").load(detailUrl, function () {
+                    $("#MyModal").modal({
+                        keyboard: false
+                    }, 'show');
+
+                });
+                return false;
+            });
+            $("#attendanceID").on("click", function () {
+                var link = $(this);
+                $.ajaxSetup({ cache: false });
+                var detailUrl = "/Attendances/Details/" + link.attr("data-attendance-id");
+                $("#MyModalContent").load(detailUrl, function () {
+                    $("#MyModal").modal({
+                        keyboard: false
+                    }, 'show');
+
+                });
+                return false;
+            });
+
+
+        });
+
+        $('.dataTables').DataTable({
+            "scrollY": "300px",
+            "scrollCollapse": true,
+            "paging": false,
+            "filter": false,
+            "info": false
+        });
+    </script>
+ 
+}
+
+
+
+
+

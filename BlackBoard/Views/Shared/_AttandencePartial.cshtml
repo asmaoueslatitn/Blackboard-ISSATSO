@@ -1,0 +1,58 @@
+﻿@model IEnumerable<BlackBoard.Core.Models.Attendance>
+@{
+    ViewBag.Title = "Students";
+    Layout = null;
+}
+
+<div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="x_panel">
+            <div class="x_content">
+                <table class="data table table-striped no-margin dataTable">
+                    <thead>
+                        <tr>
+                            <th>Exam Remarks</th>
+                            <th>Interpretation</th>
+                            <th>Second Interpretation</th>
+                            <th>Third Interpretation</th>
+                            <th>RecoverCandidate</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@item.ExamRemarks</td>
+                                <td>@item.Interpretation</td>
+                                <td>@item.SecondInterpretation</td>
+                                <td>@item.ThirdInterpretation</td>
+                                <td>@item.RecoverCandidate</td>
+                                <td>@item.Date.ToString("MMM"), @item.Date.ToString("d ")-@item.Date.ToString("yyyy")</td>
+                            </tr>
+
+                        }
+                    </tbody>
+                </table>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.dataTable').DataTable({
+            "scrollY": "300px",
+            "scrollCollapse": true,
+            "paging": false,
+            "filter": false,
+            "info": false,
+            dom: 'Bfrtip',
+            buttons: [
+                'copy', 'csv', 'excel', 'pdf', 'print'
+            ]
+        });
+    });
+</script>

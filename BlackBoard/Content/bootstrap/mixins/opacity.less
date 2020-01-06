@@ -1,0 +1,8 @@
+// Opadepartment
+
+.opadepartment(@opadepartment) {
+  opadepartment: @opadepartment;
+  // IE8 filter
+  @opadepartment-ie: (@opadepartment * 100);
+  filter: ~"alpha(opadepartment=@{opadepartment-ie})";
+}

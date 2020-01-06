@@ -1,0 +1,212 @@
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\ApplicationInsights.config
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\roslyn\csc.exe
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\roslyn\System.Collections.Immutable.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\roslyn\System.Reflection.Metadata.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\roslyn\vbc.exe
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\roslyn\VBCSCompiler.exe
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\roslyn\VBCSCompiler.exe.config
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\BlackBoard.dll.config
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\BlackBoard.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\BlackBoard.pdb
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Antlr3.Runtime.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\AutoMapper.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Castle.Core.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\EntityFramework.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\EntityFramework.SqlServer.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AI.DependencyCollector.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AI.Web.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AI.WindowsServer.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.ApplicationInsights.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Google.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Web.Infrastructure.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Newtonsoft.Json.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Ninject.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Ninject.Extensions.Conventions.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Ninject.Web.Common.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Ninject.Web.Mvc.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Ninject.Web.WebApi.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Owin.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Net.Http.Formatting.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.Helpers.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.Http.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.Http.WebHost.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.Mvc.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.Optimization.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.Razor.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.WebPages.Deployment.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.WebPages.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.WebPages.Razor.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\WebActivatorEx.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\WebGrease.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\AutoMapper.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\EntityFramework.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\EntityFramework.SqlServer.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AI.DependencyCollector.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AI.Web.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AI.WindowsServer.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.ApplicationInsights.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Ninject.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Ninject.Extensions.Conventions.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Ninject.Web.Common.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Ninject.Web.Mvc.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Ninject.Web.WebApi.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.Helpers.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.Mvc.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.Optimization.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.Razor.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.WebPages.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.WebPages.Deployment.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.WebPages.Razor.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Antlr3.Runtime.pdb
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Newtonsoft.Json.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Net.Http.Formatting.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.Http.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\System.Web.Http.WebHost.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Google.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\obj\Debug\BlackBoard.csprojAssemblyReference.cache
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\obj\Debug\BlackBoard.csproj.CoreCompileInputs.cache
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\obj\Debug\BlackBoard.csproj.CopyComplete
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\obj\Debug\BlackBoard.dll
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\obj\Debug\BlackBoard.pdb
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\obj\Debug\BlackBoard.Migrations.InitialDb.resources
+D:\Terminal\DotNet\ClinicManagemenBack-up\BlackBoard\BlackBoard\obj\Debug\BlackBoard.csproj.GenerateResource.cache
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\ApplicationInsights.config
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\roslyn\csc.exe
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\roslyn\System.Collections.Immutable.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\roslyn\System.Reflection.Metadata.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\roslyn\vbc.exe
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\roslyn\VBCSCompiler.exe
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\roslyn\VBCSCompiler.exe.config
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\BlackBoard.dll.config
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\BlackBoard.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\BlackBoard.pdb
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Antlr3.Runtime.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\AutoMapper.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Castle.Core.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\EntityFramework.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\EntityFramework.SqlServer.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AI.DependencyCollector.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AI.Web.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AI.WindowsServer.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.ApplicationInsights.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Google.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Web.Infrastructure.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Newtonsoft.Json.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Ninject.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Ninject.Extensions.Conventions.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Ninject.Web.Common.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Ninject.Web.Mvc.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Ninject.Web.WebApi.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Owin.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Net.Http.Formatting.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.Helpers.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.Http.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.Http.WebHost.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.Mvc.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.Optimization.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.Razor.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.WebPages.Deployment.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.WebPages.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.WebPages.Razor.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\WebActivatorEx.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\WebGrease.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\AutoMapper.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\EntityFramework.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\EntityFramework.SqlServer.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AI.DependencyCollector.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AI.Web.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AI.WindowsServer.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.ApplicationInsights.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Ninject.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Ninject.Extensions.Conventions.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Ninject.Web.Common.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Ninject.Web.Mvc.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Ninject.Web.WebApi.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.Helpers.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.Mvc.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.Optimization.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.Razor.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.WebPages.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.WebPages.Deployment.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.WebPages.Razor.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Antlr3.Runtime.pdb
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Newtonsoft.Json.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Net.Http.Formatting.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.Http.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\System.Web.Http.WebHost.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Google.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\obj\Debug\BlackBoard.csprojAssemblyReference.cache
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\obj\Debug\BlackBoard.Migrations.InitialDb.resources
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\obj\Debug\BlackBoard.csproj.GenerateResource.cache
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\obj\Debug\BlackBoard.csproj.CoreCompileInputs.cache
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\obj\Debug\BlackBoard.csproj.CopyComplete
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\obj\Debug\BlackBoard.dll
+D:\Terminal\DotNet\LastStable version\BlackBoard\BlackBoard\obj\Debug\BlackBoard.pdb
