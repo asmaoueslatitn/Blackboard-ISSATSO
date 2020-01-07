@@ -15,7 +15,7 @@ namespace BlackBoard.Persistence.Repositories
         }
 
 
-        public IEnumerable<Teacher> GetDectors()
+        public IEnumerable<Teacher> GetTeachers()
         {
             return _context.Teachers
                 .Include(s => s.Specialization)
