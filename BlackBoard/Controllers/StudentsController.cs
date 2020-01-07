@@ -77,8 +77,6 @@ namespace BlackBoard.Controllers
             _unitOfWork.Complete();
             return RedirectToAction("Index", "Students");
 
-            // TODO: BUG redirect to detail 
-            //return RedirectToAction("Details", new { id = viewModel.Id });
         }
 
 
@@ -93,7 +91,6 @@ namespace BlackBoard.Controllers
                 Name = student.Name,
               
                 Date = student.DateTime,
-                //Date = student.DateTime.ToString("d MMM yyyy"),
                 SemesterDate = student.SemesterDate.ToString("dd/MM/yyyy"),
                  LevelG=student.LevelG,
                 DivisionD = student.DivisionD,

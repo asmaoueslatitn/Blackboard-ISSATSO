@@ -26,15 +26,6 @@ namespace BlackBoard.Controllers
             var exam = _unitOfWork.Exams.GetExamWithStudent(id);
             return View("_ExamPartial", exam);
         }
-        //public ActionResult Students(int id)
-        //{
-        //    var viewModel = new TeacherDetailViewModel()
-        //    {
-        //        Exams = _unitOfWork.Exams.GetExamByTeacher(id),
-        //    };
-        //    //var upcomingAppnts = _unitOfWork.Exams.GetExamByTeacher(id);
-        //    return View(viewModel);
-        //}
 
         public ActionResult Create(int id)
         {
@@ -89,7 +80,6 @@ namespace BlackBoard.Controllers
                 Status = exam.Status,
                 Student = exam.StudentId,
                 Teacher = exam.TeacherId,
-                //Students = _unitOfWork.Students.GetStudents(),
                 Teachers = _unitOfWork.Teachers.GetTeachers()
             };
             return View(viewModel);

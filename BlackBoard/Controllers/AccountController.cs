@@ -73,8 +73,6 @@ namespace BlackBoard.Controllers
                 return View(model);
             }
 
-            // This doesn't count login failures towards account lockout
-            // To enable password failures to trigger account lockout, change to shouldLockout: true
             var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe,
                 shouldLockout: false);
             switch (result)
@@ -97,7 +95,6 @@ namespace BlackBoard.Controllers
         [AllowAnonymous]
         public async Task<ActionResult> VerifyCode(string provider, string returnUrl, bool rememberMe)
         {
-            // Require that the user has already logged in via username/password or external login
             if (!await SignInManager.HasBeenVerifiedAsync())
             {
                 return View("Error");
@@ -118,10 +115,6 @@ namespace BlackBoard.Controllers
                 return View(model);
             }
 
-            // The following code protects for brute force attacks against the two factor codes. 
-            // If a user enters incorrect codes for a specified amount of time then the user account 
-            // will be locked out for a specified amount of time. 
-            // You can configure the account lockout settings in IdentityConfig
             var result = await SignInManager.TwoFactorSignInAsync(model.Provider, model.Code,
                 isPersistent: model.RememberMe, rememberBrowser: model.RememberBrowser);
             switch (result)
@@ -161,12 +154,6 @@ namespace BlackBoard.Controllers
                     UserManager.AddToRole(user.Id, RoleName.AdministratorRoleName);
                     UserManager.AddClaim(user.Id, new Claim(ClaimTypes.GivenName, model.Name));
                     await SignInManager.SignInAsync(user, isPersistent: false, rememberBrowser: false);
-
-                    // For more information on how to enable account confirmation and password reset please visit http://go.microsoft.com/fwlink/?LinkID=320771
-                    // Send an email with this link
-                    // string code = await UserManager.GenerateEmailConfirmationTokenAsync(user.Id);
-                    // var callbackUrl = Url.Action("ConfirmEmail", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);
-                    // await UserManager.SendEmailAsync(user.Id, "Confirm your account", "Please confirm your account by clicking <a href=\"" + callbackUrl + "\">here</a>");
 
                     return RedirectToAction("Index", "Home");
                 }
@@ -221,7 +208,6 @@ namespace BlackBoard.Controllers
                         PhysicianId = user.Id
                     };
                     UserManager.AddClaim(user.Id, new Claim(ClaimTypes.GivenName, teacher.Name));
-                    //Mapper.Map<TeacherFormViewModel, Teacher>(model, teacher);
                     _unitOfWork.Teachers.Add(teacher);
                     _unitOfWork.Complete();
                     return RedirectToAction("Index", "Teachers");
@@ -232,7 +218,7 @@ namespace BlackBoard.Controllers
 
             viewModel.Specializations = _unitOfWork.Specializations.GetSpecializations();
 
-            // If we got this far, something failed, redisplay form
+            // If we got this far, something failed
             return View("TeacherForm", viewModel);
         }
 
@@ -280,8 +266,6 @@ namespace BlackBoard.Controllers
                     return HttpNotFound();
                 }
 
-                //user.UserName = editUser.Email;
-                // user.Id = editUser.Id;
                 user.Email = editUser.Email;
                 user.IsActive = editUser.IsActive;
                 _unitOfWork.Complete();
@@ -328,19 +312,11 @@ namespace BlackBoard.Controllers
                 var user = await UserManager.FindByNameAsync(model.Email);
                 if (user == null || !(await UserManager.IsEmailConfirmedAsync(user.Id)))
                 {
-                    // Don't reveal that the user does not exist or is not confirmed
                     return View("ForgotPasswordConfirmation");
                 }
 
-                // For more information on how to enable account confirmation and password reset please visit http://go.microsoft.com/fwlink/?LinkID=320771
-                // Send an email with this link
-                // string code = await UserManager.GeneratePasswordResetTokenAsync(user.Id);
-                // var callbackUrl = Url.Action("ResetPassword", "Account", new { userId = user.Id, code = code }, protocol: Request.Url.Scheme);		
-                // await UserManager.SendEmailAsync(user.Id, "Reset Password", "Please reset your password by clicking <a href=\"" + callbackUrl + "\">here</a>");
-                // return RedirectToAction("ForgotPasswordConfirmation", "Account");
             }
 
-            // If we got this far, something failed, redisplay form
             return View(model);
         }
 
@@ -464,7 +440,6 @@ namespace BlackBoard.Controllers
                 return RedirectToAction("Login");
             }
 
-            // Sign in the user with this external login provider if the user already has a login
             var result = await SignInManager.ExternalSignInAsync(loginInfo, isPersistent: false);
             switch (result)
             {
@@ -476,7 +451,7 @@ namespace BlackBoard.Controllers
                     return RedirectToAction("SendCode", new { ReturnUrl = returnUrl, RememberMe = false });
                 case SignInStatus.Failure:
                 default:
-                    // If the user does not have an account, then prompt the user to create an account
+
                     ViewBag.ReturnUrl = returnUrl;
                     ViewBag.LoginProvider = loginInfo.Login.LoginProvider;
                     return View("ExternalLoginConfirmation",
@@ -499,7 +474,7 @@ namespace BlackBoard.Controllers
 
             if (ModelState.IsValid)
             {
-                // Get the information about the user from the external login provider
+
                 var info = await AuthenticationManager.GetExternalLoginInfoAsync();
                 if (info == null)
                 {

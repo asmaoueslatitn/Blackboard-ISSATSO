@@ -315,4 +315,3 @@ C:\Users\bahaf\Desktop\Dotnet\Blackboard-ISSATSO\BlackBoard\obj\Debug\BlackBoard
 C:\Users\bahaf\Desktop\Dotnet\Blackboard-ISSATSO\BlackBoard\obj\Debug\BlackBoard.csproj.CopyComplete
 C:\Users\bahaf\Desktop\Dotnet\Blackboard-ISSATSO\BlackBoard\obj\Debug\BlackBoard.dll
 C:\Users\bahaf\Desktop\Dotnet\Blackboard-ISSATSO\BlackBoard\obj\Debug\BlackBoard.pdb
-C:\Users\bahaf\Desktop\Dotnet\Blackboard-ISSATSO\BlackBoard\obj\Debug\BlackBoard.Migrations.db2.resources

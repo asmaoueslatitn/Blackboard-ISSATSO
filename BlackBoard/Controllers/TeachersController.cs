@@ -17,7 +17,7 @@ namespace BlackBoard.Controllers
 
         public ActionResult Index()
         {
-            var teachers = _unitOfWork.Teachers.GetDectors();
+            var teachers = _unitOfWork.Teachers.GetTeachers();
             return View(teachers);
         }
 
