@@ -8,7 +8,7 @@ namespace BlackBoard
     {
         public void Configuration(IAppBuilder app)
         {
-            ConfigureAuth(app);
+            ConfigureAuth(app); // from here you set the login and the registration 
         }
     }
 }

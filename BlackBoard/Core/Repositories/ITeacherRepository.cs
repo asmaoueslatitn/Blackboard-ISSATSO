@@ -5,7 +5,7 @@ namespace BlackBoard.Core.Repositories
 {
     public interface ITeacherRepository
     {
-        IEnumerable<Teacher> GetDectors();
+        IEnumerable<Teacher> GetTeachers();
         IEnumerable<Teacher> GetAvailableTeachers();
         Teacher GetTeacher(int id);
         Teacher GetProfile(string userId);
