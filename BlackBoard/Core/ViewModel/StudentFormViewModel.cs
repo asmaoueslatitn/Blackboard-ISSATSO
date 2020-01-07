@@ -62,17 +62,17 @@ namespace BlackBoard.Core.ViewModel
 
         public IEnumerable<SelectListItem> DivisionsList
         {
-            get { return ClinicMgtHelpers.DivisionToSelectList(); }
+            get { return BlackBrdHelpers.DivisionToSelectList(); }
             set { }
         }
         public IEnumerable<SelectListItem> LevelsList
         {
-            get { return ClinicMgtHelpers.LevelToSelectList(); }
+            get { return BlackBrdHelpers.LevelToSelectList(); }
             set { }
         }
         public IEnumerable<SelectListItem> NamesList
         {
-            get { return ClinicMgtHelpers.NameToSelectList(); }
+            get { return BlackBrdHelpers.NameToSelectList(); }
             set { }
         }
         #endregion

@@ -5,7 +5,7 @@ using BlackBoard.Core.Models;
 
 namespace BlackBoard.Core.Helpers
 {
-    public static class ClinicMgtHelpers
+    public static class BlackBrdHelpers
     {
         public static IEnumerable<SelectListItem> DivisionToSelectList()
         {

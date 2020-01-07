@@ -263,6 +263,10 @@
     <Compile Include="Migrations\202001061930023_InitialDb.designer.cs">
       <DependentUpon>202001061930023_InitialDb.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001070108226_db2.cs" />
+    <Compile Include="Migrations\202001070108226_db2.designer.cs">
+      <DependentUpon>202001070108226_db2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Persistence\EntityConfigurations\ExamConfiguration.cs" />
     <Compile Include="Persistence\EntityConfigurations\CityConfiguration.cs" />
@@ -270,7 +274,7 @@
     <Compile Include="Persistence\EntityConfigurations\AttendanceConfiguration.cs" />
     <Compile Include="Persistence\EntityConfigurations\StudentStatusConfiguration.cs" />
     <Compile Include="Persistence\EntityConfigurations\SpecializationConfiguration.cs" />
-    <Compile Include="Core\Helpers\ClinicMgtHelpers.cs" />
+    <Compile Include="Core\Helpers\BlackBrdHelpers.cs" />
     <Compile Include="Core\Helpers\EnumHelpers.cs" />
     <Compile Include="Core\Models\City.cs" />
     <Compile Include="Core\Models\Gender.cs" />
@@ -1132,6 +1136,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202001061930023_InitialDb.resx">
       <DependentUpon>202001061930023_InitialDb.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001070108226_db2.resx">
+      <DependentUpon>202001070108226_db2.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
