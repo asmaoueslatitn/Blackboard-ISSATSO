@@ -90,7 +90,7 @@ namespace BlackBoard.Controllers
                 Student = exam.StudentId,
                 Teacher = exam.TeacherId,
                 //Students = _unitOfWork.Students.GetStudents(),
-                Teachers = _unitOfWork.Teachers.GetDectors()
+                Teachers = _unitOfWork.Teachers.GetTeachers()
             };
             return View(viewModel);
         }
@@ -101,7 +101,7 @@ namespace BlackBoard.Controllers
         {
             if (!ModelState.IsValid)
             {
-                viewModel.Teachers = _unitOfWork.Teachers.GetDectors();
+                viewModel.Teachers = _unitOfWork.Teachers.GetTeachers();
                 viewModel.Students = _unitOfWork.Students.GetStudents();
                 return View(viewModel);
             }
